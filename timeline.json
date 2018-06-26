@@ -1,0 +1,76 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version":"1.0",
+	"type": "AdaptiveCard",
+	"body": [
+		{
+		    "type": "Container",
+		    "spacing": "extraLarge",
+		    "items": [
+        		{
+        		    "type": "ColumnSet",
+        		    "columns": [
+        		        {
+        		            "width": 5,
+        		            "items": [
+                                {
+        		                    "type": "TextBlock",
+        		                    "text": "KCI 1",
+                                    "size":"medium",
+                                    "weight":"bolder"
+                                }
+        		            ]
+        		        },
+        		        {
+        		            "width": "auto",
+        		            "spacing": "small",
+        		            "backgroundImage": {
+                                "url": "http://messagecardplayground.azurewebsites.net/assets/SmallVerticalLineGray.png",
+                                "mode": "repeatVertically",
+                                "horizontalAlignment": "center"
+        		            },
+        		            "items": [
+
+                                        		                {
+        		                    "type": "Image",
+        		                    "horizontalAlignment": "center",
+                                    "size":"small",
+                                    "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_complete.png"
+        		                }
+        		            ]
+        		        },
+        		        {
+        		            "width": 20,
+        		            "spacing": "medium",
+        		            "items": [
+        		                {
+        		                    "type": "TextBlock",
+        		                    "text": "**Description**",
+        		                    "wrap": true
+        		                },
+        		                {
+        		                    "type": "ColumnSet",
+        		                    "columns": [
+        		                        {
+        		                            "width": "stretch",
+        		                            "items": [
+        		                                {
+        		                                    "type": "TextBlock",
+        		                                    "text": "Conf Room Bravern-2/9050",
+                        		                    "wrap": true
+        		                                }
+        		                            ]
+        		                        }
+        		                    ]
+                                }
+        		                
+
+        		                
+        		            ]
+        		        }
+        		    ]
+        		}
+		    ]
+		}
+	]
+}
