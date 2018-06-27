@@ -1,0 +1,314 @@
+{
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "horizontalAlignment": "center",
+      "columns": [
+        {
+          "width": 1,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "horizontalAlignment": "center",
+              "columns": [
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "size": "small",
+                      "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_notstarted.png"
+                    }
+                  ]
+                },
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Not Started"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "separator": true,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "horizontalAlignment": "center",
+              "columns": [
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "size": "small",
+                      "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_pending.png"
+                    }
+                  ]
+                },
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "In Progress"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "width": 1,
+          "items": [
+            {
+              "type": "ColumnSet",
+              "horizontalAlignment": "center",
+              "columns": [
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "size": "small",
+                      "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_complete.png"
+                    }
+                  ]
+                },
+                {
+                  "width": "auto",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "text": "Completed"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "http://www.microsoft.com"
+      },
+      "spacing": "medium",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "spacing": "extraLarge",
+          "columns": [
+            {
+              "width": 5,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "KCI1",
+                  "weight": "bolder",
+                  "size": "medium"
+                }
+              ]
+            },
+            {
+              "width": "auto",
+              "spacing": "small",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/samaea/testrepo/master/SmallVerticalLineGray.png",
+                "mode": "repeatVertically",
+                "horizontalAlignment": "center"
+              },
+              "items": [
+                {
+                  "type": "Image",
+                  "horizontalAlignment": "center",
+                  "size": "small",
+                  "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_complete.png"
+                }
+              ]
+            },
+            {
+              "width": 20,
+              "spacing": "medium",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "**Description**",
+                  "wrap": true
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Complete Task",
+                          "wrap": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "http://www.microsoft.com"
+      },
+      "spacing": "medium",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "spacing": "extraLarge",
+          "columns": [
+            {
+              "width": 5,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "KCI2",
+                  "weight": "bolder",
+                  "size": "medium"
+                }
+              ]
+            },
+            {
+              "width": "auto",
+              "spacing": "small",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/samaea/testrepo/master/SmallVerticalLineGray.png",
+                "mode": "repeatVertically",
+                "horizontalAlignment": "center"
+              },
+              "items": [
+                {
+                  "type": "Image",
+                  "horizontalAlignment": "center",
+                  "size": "small",
+                  "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_pending.png"
+                }
+              ]
+            },
+            {
+              "width": 20,
+              "spacing": "medium",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "**Description**",
+                  "wrap": true
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Complete Task",
+                          "wrap": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "http://www.microsoft.com"
+      },
+      "spacing": "medium",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "spacing": "extraLarge",
+          "columns": [
+            {
+              "width": 5,
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "KCI3",
+                  "weight": "bolder",
+                  "size": "medium"
+                }
+              ]
+            },
+            {
+              "width": "auto",
+              "spacing": "small",
+              "backgroundImage": {
+                "url": "https://raw.githubusercontent.com/samaea/testrepo/master/SmallVerticalLineGray.png",
+                "mode": "repeatVertically",
+                "horizontalAlignment": "center"
+              },
+              "items": [
+                {
+                  "type": "Image",
+                  "horizontalAlignment": "center",
+                  "size": "small",
+                  "url": "https://raw.githubusercontent.com/samaea/testrepo/master/circle_notstarted.png"
+                }
+              ]
+            },
+            {
+              "width": 20,
+              "spacing": "medium",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "**Description**",
+                  "wrap": true
+                },
+                {
+                  "type": "ColumnSet",
+                  "columns": [
+                    {
+                      "width": "stretch",
+                      "items": [
+                        {
+                          "type": "TextBlock",
+                          "text": "Process Ongoing",
+                          "wrap": true
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
